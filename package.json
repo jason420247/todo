@@ -43,7 +43,7 @@
     "probot": "^7.3.1"
   },
   "devDependencies": {
-    "chalk": "^2.4.1",
+    "chalk": "^4.0.0",
     "commander": "^2.19.0",
     "jest": "^23.6.0",
     "nodemon": "1.18.5",
