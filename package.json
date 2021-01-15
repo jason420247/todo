@@ -44,7 +44,7 @@
   },
   "devDependencies": {
     "chalk": "^2.4.1",
-    "commander": "^2.19.0",
+    "commander": "^7.0.0",
     "jest": "^23.6.0",
     "nodemon": "1.18.5",
     "smee-client": "^1.0.1",
