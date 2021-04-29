@@ -1,0 +1,45 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "11:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: probot
+    versions:
+    - 11.0.5
+    - 11.0.6
+    - 11.1.0
+    - 11.1.1
+    - 11.2.1
+    - 11.2.2
+    - 11.2.3
+    - 11.2.4
+  - dependency-name: "@octokit/rest"
+    versions:
+    - 18.0.15
+    - 18.1.0
+    - 18.1.1
+    - 18.2.0
+    - 18.2.1
+    - 18.3.0
+    - 18.3.1
+    - 18.3.2
+    - 18.3.3
+    - 18.3.4
+    - 18.3.5
+    - 18.4.0
+    - 18.5.0
+    - 18.5.2
+  - dependency-name: commander
+    versions:
+    - 7.0.0
+    - 7.1.0
+  - dependency-name: lodash
+    versions:
+    - 4.17.20
+  - dependency-name: chalk
+    versions:
+    - 4.1.0
