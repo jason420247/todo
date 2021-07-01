@@ -46,7 +46,7 @@
     "chalk": "^2.4.1",
     "commander": "^2.19.0",
     "jest": "^23.6.0",
-    "nodemon": "1.18.5",
+    "nodemon": "2.0.9",
     "smee-client": "^1.0.1",
     "standard": "^11.0.0"
   },
